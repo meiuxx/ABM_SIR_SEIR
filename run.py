@@ -106,7 +106,7 @@ def parse_args():
     parser.add_argument('--dead', action='store_true', help='Include Deceased')
     parser.add_argument("--trans_p", type=float, default=0.2, help="Transmission probability")
     parser.add_argument("--death_rate", type=float, default=0.1, help="Death rate")
-    parser.add_argument("--recover_days", type=int, default=21, help="Mean recovery days")
+    parser.add_argument("--recover_days", type=int, default=14, help="Mean recovery days")
     parser.add_argument("--recover_std", type=int, default=7, help="Recovery time standard deviation")
     parser.add_argument("--incubation_days", type=int, default=5, help="Incubation period in days")
     parser.add_argument("--steps", type=int, default=100, help="Number of steps to run the model")
