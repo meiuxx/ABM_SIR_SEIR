@@ -42,7 +42,7 @@ python run.py [ARGUMENTS]
 
 `--death_rate`  Base mortality probability. Default: `0.1`
 
-`--recover_days` Mean recovery duration in days. Default: `21`
+`--recover_days` Mean recovery duration in days. Default: `14`
 
 `--recover_std` Standard deviation for recovery duration in days. Default: `7`
 
