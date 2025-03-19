@@ -99,9 +99,9 @@ def visualization(args):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run the infection model simulation.")
-    parser.add_argument("--N", type=int, default=10, help="Number of agents")
-    parser.add_argument("--width", type=int, default=50, help="Grid width")
-    parser.add_argument("--height", type=int, default=50, help="Grid height")
+    parser.add_argument("--N", type=int, default=100, help="Number of agents")
+    parser.add_argument("--width", type=int, default=10, help="Grid width")
+    parser.add_argument("--height", type=int, default=10, help="Grid height")
     parser.add_argument('--exposed', action='store_true', help='Include Exposed')
     parser.add_argument('--dead', action='store_true', help='Include Deceased')
     parser.add_argument("--trans_p", type=float, default=0.2, help="Transmission probability")
