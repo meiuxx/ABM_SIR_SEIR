@@ -1,6 +1,6 @@
 # Agent-Based Epidemic Modeling: SIR and SEIR Model Simulations
 
-This project provides a flexible Mesa implementation for simulating disease spread using SIR and SEIR compartmental models. The system emphasizes realistic agent interactions with configurable transmission dynamics, age-adjusted mortality risks, and progressive infection seeding to mirror real-world epidemic patterns. Simulation represents both spread over time and population dynamics. Below are example visualizations showing infection patterns in SIR (first) and SEIR with death tracking (second):
+This project provides a flexible Mesa implementation for simulating disease spread using SIR and SEIR compartmental models. The system emphasizes realistic agent interactions with configurable transmission dynamics, age-adjusted mortality risks, and progressive infection seeding to mirror real-world epidemic patterns. Simulation represents both spread over time and population dynamics. Below are example visualizations showing infection patterns in SIR (first) and SEIR with death tracking (second). Files may take time to load:
 
 <img src="SIR.gif" width="550" alt="SIR Model"/> <img src="SEIRD.gif" width="550" alt="SEIR Model with death tracking"/>
 
