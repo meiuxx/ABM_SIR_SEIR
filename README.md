@@ -28,11 +28,11 @@ python run.py [ARGUMENTS]
 ```
 
 ### Key Arguments
-`--N` Total number of agents in the simulation. Default: `10`
+`--N` Total number of agents in the simulation. Default: `100`
 
-`--width` Width of the grid in cells. Default: `50`
+`--width` Width of the grid in cells. Default: `10`
 
-`--height` Height of the grid in cells. Default: `50`
+`--height` Height of the grid in cells. Default: `10`
 
 `--exposed` Enable the SEIR model (adds an "Exposed" state). Default: `False`
 
